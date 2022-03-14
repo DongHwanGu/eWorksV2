@@ -1,0 +1,12 @@
+.reset-expansion-style {
+    background-color: #fafafa !important;
+}
+/* .parent-expand-foo {
+    border:2px solid #88c58a;
+    background-color: #c8e6c9 !important;
+} */
+
+.bgColorEntity {
+    background-color: #ffc700 !important;
+    color: #fafafa;
+}

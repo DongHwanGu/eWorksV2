@@ -1,0 +1,31 @@
+
+.tui-full-calendar-section-detail > div:nth-child(1){
+    display: none !important;
+}
+.tui-full-calendar-section-detail > div:nth-child(2){
+    display: none !important;
+}
+.tui-full-calendar-section-state {
+    display: none !important;
+}
+#tui-full-calendar-schedule-private,
+.tui-full-calendar-section-location
+{
+    display: none !important;
+}
+.tui-full-calendar-section-allday
+{
+    display: none !important;
+}
+.tui-full-calendar-month-creation-guide {
+    background: 'red' !important;
+}
+.tui-full-calendar-section-button {
+    text-align: right;
+}
+.tui-full-calendar-popup-edit {
+    display: none;
+}
+.tui-full-calendar-popup-vertical-line {
+    display: none;
+}

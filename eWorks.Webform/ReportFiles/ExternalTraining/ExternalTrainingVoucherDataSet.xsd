@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ExternalTrainingVoucherDataSet" targetNamespace="http://tempuri.org/ExternalTrainingVoucherDataSet.xsd" xmlns:mstns="http://tempuri.org/ExternalTrainingVoucherDataSet.xsd" xmlns="http://tempuri.org/ExternalTrainingVoucherDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ExternalTrainingVoucherDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ExternalTrainingVoucherDataSet" msprop:Generator_UserDSName="ExternalTrainingVoucherDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REQUESTOR" msprop:Generator_ColumnVarNameInTable="columnREQUESTOR" msprop:Generator_ColumnPropNameInRow="REQUESTOR" msprop:Generator_ColumnPropNameInTable="REQUESTORColumn" msprop:Generator_UserColumnName="REQUESTOR" type="xs:string" minOccurs="0" />
+              <xs:element name="REG_DT_NM" msprop:Generator_ColumnVarNameInTable="columnREG_DT_NM" msprop:Generator_ColumnPropNameInRow="REG_DT_NM" msprop:Generator_ColumnPropNameInTable="REG_DT_NMColumn" msprop:Generator_UserColumnName="REG_DT_NM" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT_CD_NM" msprop:Generator_ColumnVarNameInTable="columnDEPT_CD_NM" msprop:Generator_ColumnPropNameInRow="DEPT_CD_NM" msprop:Generator_ColumnPropNameInTable="DEPT_CD_NMColumn" msprop:Generator_UserColumnName="DEPT_CD_NM" type="xs:string" minOccurs="0" />
+              <xs:element name="PAYMENT_METHOD_NM" msprop:Generator_ColumnVarNameInTable="columnPAYMENT_METHOD_NM" msprop:Generator_ColumnPropNameInRow="PAYMENT_METHOD_NM" msprop:Generator_ColumnPropNameInTable="PAYMENT_METHOD_NMColumn" msprop:Generator_UserColumnName="PAYMENT_METHOD_NM" type="xs:string" minOccurs="0" />
+              <xs:element name="BANK_CD_NM" msprop:Generator_ColumnVarNameInTable="columnBANK_CD_NM" msprop:Generator_ColumnPropNameInRow="BANK_CD_NM" msprop:Generator_ColumnPropNameInTable="BANK_CD_NMColumn" msprop:Generator_UserColumnName="BANK_CD_NM" type="xs:string" minOccurs="0" />
+              <xs:element name="ACCOUNT_NO" msprop:Generator_ColumnVarNameInTable="columnACCOUNT_NO" msprop:Generator_ColumnPropNameInRow="ACCOUNT_NO" msprop:Generator_ColumnPropNameInTable="ACCOUNT_NOColumn" msprop:Generator_UserColumnName="ACCOUNT_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAINING_NM" msprop:Generator_ColumnVarNameInTable="columnTRAINING_NM" msprop:Generator_ColumnPropNameInRow="TRAINING_NM" msprop:Generator_ColumnPropNameInTable="TRAINING_NMColumn" msprop:Generator_UserColumnName="TRAINING_NM" type="xs:string" minOccurs="0" />
+              <xs:element name="REASON" msprop:Generator_ColumnVarNameInTable="columnREASON" msprop:Generator_ColumnPropNameInRow="REASON" msprop:Generator_ColumnPropNameInTable="REASONColumn" msprop:Generator_UserColumnName="REASON" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAINING_AMT_NM" msprop:Generator_ColumnVarNameInTable="columnTRAINING_AMT_NM" msprop:Generator_ColumnPropNameInRow="TRAINING_AMT_NM" msprop:Generator_ColumnPropNameInTable="TRAINING_AMT_NMColumn" msprop:Generator_UserColumnName="TRAINING_AMT_NM" type="xs:string" minOccurs="0" />
+              <xs:element name="REQUESTED_BY_NM" msprop:Generator_ColumnVarNameInTable="columnREQUESTED_BY_NM" msprop:Generator_ColumnPropNameInRow="REQUESTED_BY_NM" msprop:Generator_ColumnPropNameInTable="REQUESTED_BY_NMColumn" msprop:Generator_UserColumnName="REQUESTED_BY_NM" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable2" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_TablePropName="DataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent" msprop:Generator_RowClassName="DataTable2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USER_ENM" msprop:Generator_ColumnVarNameInTable="columnUSER_ENM" msprop:Generator_ColumnPropNameInRow="USER_ENM" msprop:Generator_ColumnPropNameInTable="USER_ENMColumn" msprop:Generator_UserColumnName="USER_ENM" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

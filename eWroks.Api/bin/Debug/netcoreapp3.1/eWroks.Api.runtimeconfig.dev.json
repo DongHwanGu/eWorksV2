@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\INTERTEK\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\INTERTEK\\.nuget\\packages"
+    ]
+  }
+}

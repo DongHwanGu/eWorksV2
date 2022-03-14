@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+이 파일은 웹 프로젝트의 게시/패키지 프로세스에서 사용됩니다. 이 MSBuild 파일을 편집하여 이 프로세스의 동작을
+사용자 지정할 수 있습니다. 이에 대한 자세한 내용은 https://go.microsoft.com/fwlink/?LinkID=208121을 참조하세요. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfZzUT8zdgkCJbN8c2PdPjgAAAAACAAAAAAAQZgAAAAEAACAAAADk9iD2ri8xIzwlY1ld472NJAAiJ+iFl1qnw3ftmFNCTAAAAAAOgAAAAAIAACAAAABlZrxsA7dS/C7qHHkFckUBvsnYfuTL2+wuN+QqtvRR3SAAAAAIZb1xVlUnxd6vyNVuMVQCqrv6jcB2qY6JfRhH+wAZp0AAAADh3t9/vsfRuXhpUqHTlxmNlCvasPKT0ijkWP8AiAc62jVdEJ0i/cY7zVGZmnScxkWrO9HUY+YfYxLnP3jnr0ZC</EncryptedPassword>
+    <_PublishTargetUrl>ftp://172.17.92.251/webService</_PublishTargetUrl>
+    <History>True|2022-03-11T04:44:24.9347373Z;True|2022-02-11T15:32:15.9376153+09:00;True|2022-01-27T15:49:19.7827713+09:00;True|2021-12-22T11:20:12.9645819+09:00;True|2021-12-21T17:28:20.4056960+09:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>12/24/2021 16:35:57</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>12/24/2021 16:35:57</publishTime>
+    </File>
+    <File Include="ClosedXML.dll">
+      <publishTime>12/16/2020 18:59:00</publishTime>
+    </File>
+    <File Include="Dapper.dll">
+      <publishTime>11/17/2020 18:58:48</publishTime>
+    </File>
+    <File Include="DocumentFormat.OpenXml.dll">
+      <publishTime>06/07/2017 07:59:22</publishTime>
+    </File>
+    <File Include="eWroks.Api.deps.json">
+      <publishTime>03/11/2022 13:44:16</publishTime>
+    </File>
+    <File Include="eWroks.Api.dll">
+      <publishTime>03/10/2022 11:16:01</publishTime>
+    </File>
+    <File Include="eWroks.Api.exe">
+      <publishTime>03/10/2022 11:16:01</publishTime>
+    </File>
+    <File Include="eWroks.Api.pdb">
+      <publishTime>03/10/2022 11:16:01</publishTime>
+    </File>
+    <File Include="eWroks.Api.runtimeconfig.json">
+      <publishTime>12/24/2021 17:06:36</publishTime>
+    </File>
+    <File Include="ExcelNumberFormat.dll">
+      <publishTime>03/13/2020 18:36:50</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.Registry.dll">
+      <publishTime>10/20/2020 03:37:46</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/20/2020 03:40:26</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>07/21/2020 06:33:18</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll">
+      <publishTime>10/20/2020 03:46:26</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>10/20/2020 03:49:58</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/sni.dll">
+      <publishTime>07/12/2017 20:24:24</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/sni.dll">
+      <publishTime>07/12/2017 20:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/sni.dll">
+      <publishTime>07/12/2017 20:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll">
+      <publishTime>10/20/2020 03:52:34</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll">
+      <publishTime>10/20/2020 03:46:06</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>07/21/2020 06:33:24</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll">
+      <publishTime>10/20/2020 03:46:14</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/20/2020 03:52:12</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>10/20/2020 03:53:02</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll">
+      <publishTime>10/20/2020 03:53:36</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll">
+      <publishTime>10/20/2020 03:38:06</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll">
+      <publishTime>10/20/2020 03:52:40</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/20/2020 03:49:30</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>10/20/2020 03:52:30</publishTime>
+    </File>
+    <File Include="System.Data.OleDb.dll">
+      <publishTime>10/20/2020 03:52:40</publishTime>
+    </File>
+    <File Include="System.Data.SqlClient.dll">
+      <publishTime>07/21/2020 06:21:14</publishTime>
+    </File>
+    <File Include="System.Diagnostics.PerformanceCounter.dll">
+      <publishTime>10/20/2020 03:50:20</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>10/20/2020 03:50:02</publishTime>
+    </File>
+    <File Include="System.IO.Packaging.dll">
+      <publishTime>06/12/2016 08:13:48</publishTime>
+    </File>
+    <File Include="System.Security.AccessControl.dll">
+      <publishTime>10/20/2020 03:37:22</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/20/2020 03:52:26</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>10/20/2020 03:53:40</publishTime>
+    </File>
+    <File Include="System.Security.Principal.Windows.dll">
+      <publishTime>10/20/2020 03:37:20</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>10/20/2020 03:53:38</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/11/2022 13:44:16</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

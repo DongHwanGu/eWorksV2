@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello React 13 - 컬렉션</title>
+    <!--https://ko.reactjs.org/docs/cdn-links.html-->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!--https://babeljs.io/docs/en/babel-standalone-->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- https://www.bootstrapcdn.com/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="root">
+
+    </div>
+    <script type="text/babel">
+        let title = "구조 분해 할당";
+        let seeSharp = {
+            title: "c#",
+            desc: "Content"
+        };
+
+        // Component 는 무조건 첫자 대문자 규칙.
+        function Booktitle() {
+            return (<>
+                <div className="row">
+                    <p>Top Book</p>
+                </div>
+            </>);
+        }
+        // function BookCard(props) { props.id props.aa ...}
+        function BookCard({ title, desc, price }) {
+            // console.log(props)
+            // Object.keys(props)
+            return (<>
+                <div className="container mb-2">
+                    <div className="row">
+                        <div className="col-12">
+                            {title}
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2">
+                            {title}
+                        </div>
+                        <div className="col-10">
+                            {desc}
+                            <hr />
+                            {price} 원
+                        </div>
+                    </div>
+                </div>
+            </>);
+        }
+        class BookList extends React.Component {
+            state = {
+                theme: 'White',
+            }
+            blueTheme = () => {
+                this.setState({
+                    theme: 'Blue'
+                })
+            }
+            whiteTheme = () => {
+                this.setState({
+                    theme: 'White'
+                })
+            }
+            render() {
+                return (
+                    <>
+                        <div>{this.state.theme === "White" ? "화이트" : "블루"}</div>
+                        <div>
+                            <button onClick={ () => {
+                                this.setState({
+                                    theme: 'White'
+                                })
+                            }}>White 1</button>
+                            <button onClick={ this.whiteTheme }>White 2</button>
+                            <button onClick={ () => {
+                                this.setState({
+                                    theme: 'Blue'
+                                })
+                            }}>Blue 1</button>
+                            <button onClick={ this.blueTheme }>Blue 2</button>
+                        </div>
+                        
+                        {
+                            this.props.books.map(book => {
+                                return <BookCard key={book.id} title={book.title} desc={book.desc} price={book.price} />
+                            })
+                        }
+                    </>
+                );
+            }
+        }
+        const BookFooter = () => {
+            return (<>
+                <div className="row">
+                    <p>Footer Book List</p>
+                </div>
+            </>);
+        }
+        const Copyright = () => {
+            return (<>
+                <div className="row">
+                    <p>Copyright Book List</p>
+                </div>
+            </>);
+        }
+
+        const books = [
+                { id: 1, title: "c#", desc: "react", price: 3000 },
+                { id: 2, title: "asp.net", desc: "react2", price: 33000 },
+                { id: 3, title: "blazor", desc: "react2", price: 33000 },
+            ];
+        class BookApp extends React.Component {
+            render() {
+                return (<>
+                    <Booktitle />
+                    <BookList sortOrder="ASC" books={books} />
+                    <BookFooter />
+                    <Copyright />
+                </>);
+            }
+        }
+
+        // Tag 시작과 끝이 명확해야됨.
+        ReactDOM.render(<>
+            <BookApp />
+        </>,
+            document.getElementById("root"));
+    </script>
+</body>
+
+</html>
